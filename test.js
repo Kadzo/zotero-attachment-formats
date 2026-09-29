@@ -6,10 +6,8 @@ const path = require("node:path");
 const vm = require("node:vm");
 
 const manifest = JSON.parse(fs.readFileSync(path.join(__dirname, "manifest.json"), "utf8"));
-assert.equal(manifest.applications.zotero.id, "formati-priloga@local.invalid");
-assert.equal(manifest.name, "Attachment Formats");
-assert.equal(manifest.version, "0.1.5");
-assert.equal(manifest.applications.zotero.update_url, undefined);
+assert.equal(manifest.applications.zotero.id, "formati-priloga@local.invalid");assert.equal(manifest.name, "Attachment Formats");
+assert.equal(manifest.version, "0.1.6");assert.equal(manifest.applications.zotero.update_url, "https://raw.githubusercontent.com/Kadzo/zotero-attachment-formats/main/updates.json");
 assert.equal(manifest.applications.zotero.strict_max_version, "10.0.*");
 
 const attachments = new Map();
