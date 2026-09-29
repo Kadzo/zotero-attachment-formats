@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+  "name": "Attachment Formats",
+  "version": "0.1.5",
+  "description": "Shows attachment file extensions in a separate Zotero column.",
+  "author": "Branislav Kapetanovic / Codex",
+  "applications": {
+    "zotero": {
+      "id": "formati-priloga@local.invalid",
+      "strict_min_version": "10.0",
+      "strict_max_version": "10.0.*"
+    }
+  }
+}
