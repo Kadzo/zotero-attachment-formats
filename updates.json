@@ -1,0 +1,19 @@
+{
+  "addons": {
+    "formati-priloga@local.invalid": {
+      "updates": [
+        {
+          "version": "0.1.6",
+          "update_link": "https://github.com/Kadzo/zotero-attachment-formats/releases/download/v0.1.6/attachment-formats-0.1.6.xpi",
+          "update_hash": "sha256:bb4360036ebdd3c4e740f138eb28518eff0f00055e859398be56e56b2d56642a",
+          "applications": {
+            "zotero": {
+              "strict_min_version": "10.0",
+              "strict_max_version": "10.0.*"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
